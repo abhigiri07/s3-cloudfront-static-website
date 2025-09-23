@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>S3 & CloudFront Image Uploader</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .upload-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .upload-box h2 {
+      margin-bottom: 20px;
+    }
+    input[type="file"] {
+      margin: 15px 0;
+    }
+    button {
+      background: #0073e6;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #005bb5;
+    }
+  </style>
+</head>
+<body>
+  <div class="upload-box">
+    <h2>Upload Image to S3 + CloudFront</h2>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" required>
+      <br>
+      <button type="submit">Upload</button>
+    </form>
+  </div>
+</body>
+</html>
