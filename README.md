@@ -22,7 +22,7 @@ This project allows users to upload images, which are then:
   * Easy deployment & scalable architecture
 
   ## 🏗️ Architecture
-
+ ![arti](./images/1_XmzbqfAxzU0jJ1bDqlBDlQ.webp)
 
 
   ## ⚙️ Tech Stack
@@ -141,3 +141,4 @@ Database:
 
 
   
+
