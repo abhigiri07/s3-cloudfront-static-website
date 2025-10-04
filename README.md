@@ -68,7 +68,7 @@ sudo systemctl enable php-fpm
 
   ## Configure Database
 
-  __Create a MySQL table:__
+  __Create a MySQL Databse and table:__
 
   ```
   CREATE DATABASE facebook;
@@ -139,6 +139,9 @@ Database:
 
   * Use Amazon RDS instead of local MySQL
 
+## 🏁 Conclusion
+The **S3-CloudFront Image Uploader** project demonstrates an efficient way to host and deliver images using AWS. By combining **Amazon S3** for secure storage and **Amazon CloudFront** for fast global content delivery, this setup ensures **high availability, scalability, and low latency**. It's a great example of how AWS services can be integrated to build a **cost-effective and performance-optimized image hosting solution**.
 
-  
+---
+
 
